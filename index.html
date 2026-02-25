@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Website</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">MyWebsite</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Welcome to <span class="highlight">MyWebsite</span></h1>
+      <p>A clean, modern website built with HTML, CSS &amp; JavaScript.</p>
+      <a href="#about" class="btn btn-primary">Learn More</a>
+      <a href="#contact" class="btn btn-outline">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Us</h2>
+      <p class="section-subtitle">Who we are and what we stand for.</p>
+      <div class="cards">
+        <div class="card">
+          <div class="card-icon">&#128161;</div>
+          <h3>Our Vision</h3>
+          <p>We believe in building beautiful, accessible, and performant experiences for everyone on the web.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">&#127775;</div>
+          <h3>Our Mission</h3>
+          <p>Delivering high-quality digital products that make a real difference in people's daily lives.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">&#128104;&#8205;&#128187;</div>
+          <h3>Our Team</h3>
+          <p>A passionate group of designers and developers dedicated to crafting excellent software.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Services</h2>
+      <p class="section-subtitle">What we can do for you.</p>
+      <div class="services-grid">
+        <div class="service-item">
+          <span class="service-icon">&#127760;</span>
+          <h3>Web Design</h3>
+          <p>Stunning, responsive designs tailored to your brand identity.</p>
+        </div>
+        <div class="service-item">
+          <span class="service-icon">&#128187;</span>
+          <h3>Development</h3>
+          <p>Robust, scalable code built with modern technologies.</p>
+        </div>
+        <div class="service-item">
+          <span class="service-icon">&#128200;</span>
+          <h3>SEO &amp; Analytics</h3>
+          <p>Data-driven strategies to grow your online presence.</p>
+        </div>
+        <div class="service-item">
+          <span class="service-icon">&#128241;</span>
+          <h3>Mobile First</h3>
+          <p>Optimized experiences across all devices and screen sizes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Contact Us</h2>
+      <p class="section-subtitle">Let's start a conversation.</p>
+      <form class="contact-form" id="contactForm">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="your@email.com" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+      <div id="formSuccess" class="form-success hidden">
+        Message sent! We'll get back to you soon.
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 MyWebsite. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
