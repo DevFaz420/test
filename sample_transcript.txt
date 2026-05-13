@@ -1,0 +1,5 @@
+John: let's review the release roadmap and backlog grooming for next sprint.
+Ana: We decided to ship the analytics feature on Tuesday.
+John: Action item - Ana will coordinate QA and file remaining bug tickets.
+Chris: Should we update the onboarding docs before launch?
+Ana: Yes, next step is to create a checklist by Friday.
